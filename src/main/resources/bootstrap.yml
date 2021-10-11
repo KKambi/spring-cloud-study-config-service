@@ -1,2 +1,6 @@
 encrypt:
-  key: abcdknweljfnlfjewn1234
+#  key: abcdknweljfnlfjewn1234
+  key-store:
+    location: file://${user.home}/IdeaProjects/spring-cloud-study-config/apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
